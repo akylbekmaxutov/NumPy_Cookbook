@@ -102,98 +102,98 @@
     - **Hint:** Use `numpy.dot()` or simply use the `@` operator.
 
 11. **Problem:** Create an array of zeros with shape (3, 4).
-   - **Input Data:** None
-   - **Expected Output:**
-     ```
-     array([[0., 0., 0., 0.],
-            [0., 0., 0., 0.],
-            [0., 0., 0., 0.]])
-     ```
-   - **Hint:** Use `numpy.zeros()`.
+      - **Input Data:** None
+      - **Expected Output:**
+        ```
+        array([[0., 0., 0., 0.],
+               [0., 0., 0., 0.],
+               [0., 0., 0., 0.]])
+        ```
+      - **Hint:** Use `numpy.zeros()`.
 
 12. **Problem:** Create an array of ones with shape (2, 3, 4).
-   - **Input Data:** None
-   - **Expected Output:**
-     ```
-     array([[[1., 1., 1., 1.],
-             [1., 1., 1., 1.],
-             [1., 1., 1., 1.]],
-            [[1., 1., 1., 1.],
-             [1., 1., 1., 1.],
-             [1., 1., 1., 1.]]])
-     ```
-   - **Hint:** Use `numpy.ones()`.
+      - **Input Data:** None
+      - **Expected Output:**
+        ```
+        array([[[1., 1., 1., 1.],
+                [1., 1., 1., 1.],
+                [1., 1., 1., 1.]],
+               [[1., 1., 1., 1.],
+                [1., 1., 1., 1.],
+                [1., 1., 1., 1.]]])
+        ```
+      - **Hint:** Use `numpy.ones()`.
 
 13. **Problem:** Create an array of evenly spaced values from 1 to 10 (inclusive) with a step size of 0.5.
-   - **Input Data:** None
-   - **Expected Output:**
-     ```
-     array([1. , 1.5, 2. , 2.5, 3. , 3.5, 4. , 4.5, 5. , 5.5, 6. , 6.5, 7. , 7.5, 8. , 8.5, 9. , 9.5, 10.])
-     ```
-   - **Hint:** Use `numpy.arange()` with a step size.
+      - **Input Data:** None
+      - **Expected Output:**
+        ```
+        array([1. , 1.5, 2. , 2.5, 3. , 3.5, 4. , 4.5, 5. , 5.5, 6. , 6.5, 7. , 7.5, 8. , 8.5, 9. , 9.5, 10.])
+        ```
+      - **Hint:** Use `numpy.arange()` with a step size.
 
 14. **Problem:** Create a 3x3 diagonal matrix with the values 1, 2, and 3 on the main diagonal.
-   - **Input Data:** None
-   - **Expected Output:**
-     ```
-     array([[1, 0, 0],
-            [0, 2, 0],
-            [0, 0, 3]])
-     ```
-   - **Hint:** Use `numpy.diag()`.
+      - **Input Data:** None
+      - **Expected Output:**
+        ```
+        array([[1, 0, 0],
+               [0, 2, 0],
+               [0, 0, 3]])
+        ```
+      - **Hint:** Use `numpy.diag()`.
 
 15. **Problem:** Stack two arrays vertically.
-   - **Input Data:**
-     ```
-     A = np.array([1, 2, 3])
-     B = np.array([4, 5, 6])
-     ```
-   - **Expected Output:**
-     ```
-     array([[1, 2, 3],
-            [4, 5, 6]])
-     ```
-   - **Hint:** Use `numpy.vstack()` or `numpy.concatenate()` with `axis=0`.
+      - **Input Data:**
+        ```
+        A = np.array([1, 2, 3])
+        B = np.array([4, 5, 6])
+        ```
+      - **Expected Output:**
+        ```
+        array([[1, 2, 3],
+               [4, 5, 6]])
+        ```
+      - **Hint:** Use `numpy.vstack()` or `numpy.concatenate()` with `axis=0`.
 
 16. **Problem:** Calculate the sum of all elements in a 2D array.
-   - **Input Data:**
-     ```
-     arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-     ```
-   - **Expected Output:** 45
-   - **Hint:** Use `numpy.sum()`.
+      - **Input Data:**
+        ```
+        arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+        ```
+      - **Expected Output:** 45
+      - **Hint:** Use `numpy.sum()`.
 
 17. **Problem:** Normalize the values in a 1D array to have a mean of 0 and a standard deviation of 1.
-   - **Input Data:**
-     ```
-     arr = np.array([10, 20, 30, 40, 50])
-     ```
-   - **Expected Output:** The normalized array.
-   - **Hint:** Subtract the mean and divide by the standard deviation.
+      - **Input Data:**
+        ```
+        arr = np.array([10, 20, 30, 40, 50])
+        ```
+      - **Expected Output:** The normalized array.
+      - **Hint:** Subtract the mean and divide by the standard deviation.
 
 18. **Problem:** Find the unique elements and their counts in a 1D array.
-   - **Input Data:**
-     ```
-     arr = np.array([1, 2, 2, 3, 3, 3, 4, 4, 4, 4])
-     ```
-   - **Expected Output:** Unique elements and their counts.
-   - **Hint:** Use `numpy.unique()` with `return_counts=True`.
+      - **Input Data:**
+        ```
+        arr = np.array([1, 2, 2, 3, 3, 3, 4, 4, 4, 4])
+        ```
+      - **Expected Output:** Unique elements and their counts.
+      - **Hint:** Use `numpy.unique()` with `return_counts=True`.
 
 19. **Problem:** Calculate the element-wise square root of a 1D array.
-   - **Input Data:**
-     ```
-     arr = np.array([1, 4, 9, 16, 25])
-     ```
-   - **Expected Output:** The square root of each element.
-   - **Hint:** Use `numpy.sqrt()`.
+      - **Input Data:**
+        ```
+        arr = np.array([1, 4, 9, 16, 25])
+        ```
+      - **Expected Output:** The square root of each element.
+      - **Hint:** Use `numpy.sqrt()`.
 
 20. **Problem:** Find the index of the maximum element in a 1D array.
-    - **Input Data:**
-      ```
-      arr = np.array([7, 2, 9, 4, 8, 6])
-      ```
-    - **Expected Output:** The index of the maximum element (2 in this case).
-    - **Hint:** Use `numpy.argmax()`.
+       - **Input Data:**
+         ```
+         arr = np.array([7, 2, 9, 4, 8, 6])
+         ```
+       - **Expected Output:** The index of the maximum element (2 in this case).
+       - **Hint:** Use `numpy.argmax()`.
 
 ## Medium
 
